@@ -1,0 +1,312 @@
+
+.col-centered{
+float: none;
+margin: 100px auto;
+text-align: center;
+}
+
+.avatar{
+ max-width: 35%;
+ box-shadow: 0px 0px 25px #1A1E24;
+}
+
+.navbar-default{
+ background: rgba(78,93,108,0.85);
+ box-shadow: 0px 0px 30px #1A1E24;
+}
+
+#banner{
+  margin: 70px 0 0 0;
+}
+.page-header {
+    margin: 0;
+}
+.card-header{
+    padding: 10px 0 0px 0;
+}
+/*the name in nav bar*/
+.navbar-brand {
+    font-size: 250%;
+    line-height: 100%;
+    margin: 5px 20px 7px 5px;
+    outline:  none;
+    border: 0;
+}
+
+/*nav buttons*/
+.navbar-nav li {
+    font-size: 20px;
+    padding: 9px 0px 7px 0px;
+    margin: 0;
+}
+
+    .navbar-nav li a {
+        outline:  none;
+    }
+
+/*The button on small screens*/
+.navbar-toggle{
+  margin: 12px 15px 0 0;  
+}
+
+
+/*=============================================== Card design ===============================================*/
+.page-header {
+    margin: 0;
+}
+.card-header{
+    padding: 10px 0 0px 0;
+}
+.content-card{
+  margin: 50px 0 0 0;
+  padding: 0 0 30px 20px;
+  background-color: #63768b;
+  outline: none;
+  border-color: #2e3740;
+  box-shadow: 0px 0px 25px #1A1E24;
+  font-size: 23px;
+  color:#ffffff;
+}
+
+
+    #about{
+        color:#2b3e50;
+        background-color:#e3dac9;
+    }
+
+    #portfolio{
+    }
+
+    #work{
+        background-color: #428A8C;
+    }
+
+    #contact{
+        background-color:#ff6466;
+    }
+
+
+    .contact-info {
+        list-style: none;
+    }
+
+
+/*=============================================== PORTFOLIO ===============================================*/
+#portfolio-info {
+    margin: 15px 0 0 0;
+}
+.port_projects h3{
+    text-decoration: underline;
+}
+
+                /*expandible menu*/
+                .panel-heading {
+                    min-width: 100%;
+                    text-align: left;
+                    outline:  none;
+                 }
+                .panel-heading:hover {
+                     cursor: pointer;
+                }
+                .panel-group{
+                    margin:  20px 20px 25px 0;
+                    padding: 0px;
+                }
+                .panel-body{
+                    margin: 0;
+                    padding: 0;
+                }
+                .files {
+                    padding: 0px;
+                    margin:  20px 0 0 0;
+                }
+                .collapse-icon{
+                    float: right;
+                    margin: 2px;
+                }
+                .fileICON {
+                    max-width: 100px;  
+                }
+                .files .fa-file-pdf-o{
+                    padding:  0;
+                    margin: 0;
+                }
+                .files ul {
+                    list-style: none;
+                    text-align: center;
+                    padding:  0;
+                    margin: 0;
+                }
+                .files a:link {
+                    color: #ffffff;
+                    text-decoration:  none;
+                    outline: none;
+                    text-align: center;
+                }
+                .files a:visited{
+                    color: #ffffff;
+                }
+                .files a:hover{
+                    color: #D6665A;
+                }
+                .files a:active{
+                    color: #41b9e1;
+                    outline: none;
+                }
+                .files li {
+                  display: inline-block;
+                  vertical-align: top;
+                  width: 170px;
+                  height: 120px;
+                  margin: 0px 5px 15px 5px;
+                }
+                .files p{
+                    font-size:  20px;
+                    padding: 0px;
+                    margin: 0;
+                }
+
+/*====================================== WORK ===============================================*/
+a.resume_file:link {
+    color: #ffffff;
+    text-decoration:  none;
+    outline: none;
+}
+a.resume_file:visited{
+    color: #ffffff;
+}
+a.resume_file:hover{
+    color: #D6665A;
+}
+a.resume_file:active{
+    color: #D6665A;
+    outline: none;
+}
+.resume_file ul {
+    background-color: #214646;
+    text-align: center;
+    list-style: none;
+    padding:  20px 0 15px 0;
+    margin:  20px 15px 0 0;
+}
+
+.resume {
+    margin: 0 10px 0 10px;
+}
+#label {
+    font-size: 20px;
+    text-align: center;   
+}
+
+/*=============================================== CONTACT ===============================================*/
+.contact-info span {
+    padding: 10px;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.contact-info a:link{
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact-info a:hover{
+    text-decoration: none;
+    color: #2b3e50; 
+}
+
+/*=============================================== FOOTER ===============================================*/
+.footer {
+    margin: 60px 0px;
+    text-align: center;
+}
+.footer a{
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0px 10px 15px 0;
+}
+.footer p {
+    margin: 0px 0px;
+    
+}
+
+
+.footer a:hover{
+    color:  #41b9e1 !important;
+}
+
+.centered {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/*=============================================== Nav button ===============================================*/
+.nav-button {
+    z-index: 1049;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 45px;
+    height: 45px;
+    outline: 0;
+    border:  0;
+}
+
+
+.nav-arrow{
+   color: rgba(80,95,110,0.75); 
+   opacity: inherit; 
+   filter: inherit;
+}
+.nav-arrow:link {
+     display:none;
+     outline: 0;
+     border:  0;
+     color: rgba(80,95,110,0.75);
+     text-decoration: none;
+     
+}
+
+.nav-arrow:visited {
+    outline: 0;
+    border:  0;
+    color: rgba(80,95,110,0.75);
+    text-decoration: none;
+    
+    
+}
+.nav-arrow:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav-arrow:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.glow {
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+
+
+
+

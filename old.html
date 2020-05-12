@@ -5,53 +5,25 @@
     <meta charset="utf-8" />
     <title>Ali Nouri</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Import Google Fonts -->
     <link
       href="http://fonts.googleapis.com/css?family=Lato:400,300,700"
       rel="stylesheet"
       type="text/css"
     />
-
-    <!-- Import Bootwatch Theme (flatly) -->
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/expand.js"></script>
     <link
-      href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/flatly/bootstrap.min.css"
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
       rel="stylesheet"
-      integrity="sha384-yrfSO0DBjS56u5M+SjWTyAHujrkiYVtRYh2dtB3yLQtUz3bodOeialO59u5lUCFF"
-      crossorigin="anonymous"
     />
-
-    <!-- Import Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- Import Font Awesome -->
-    <link
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
-
-    <!-- Custom CSS -->
-    <!-- <link rel="stylesheet" href="css/style.css" /> -->
 
     <!-- Google Analytics
       ================================================== -->
-    <!-- <script>
+    <script>
       (function (i, s, o, g, r, a, m) {
         i["GoogleAnalyticsObject"] = r;
         (i[r] =
@@ -74,87 +46,38 @@
 
       ga("create", "UA-57474315-2", "auto");
       ga("send", "pageview");
-    </script> -->
+    </script>
   </head>
 
   <body>
-    <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary shadow">
+    <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
-        <a href="../" class="navbar-brand">Ali Nouri</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                data-toggle="dropdown"
-                href="#"
-                id="themes"
-                >Themes <span class="caret"></span
-              ></a>
-              <div class="dropdown-menu" aria-labelledby="themes">
-                <a class="dropdown-item" href="../default/">Default</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="../cerulean/">Cerulean</a>
+        <div class="navbar-header">
+          <a href="#banner" class="navbar-brand">Ali Nouri</a>
+          <button
+            class="navbar-toggle"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbar-main"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="#about">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../help/">Help</a>
+            <li>
+              <a href="#portfolio">Portfolio</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://blog.bootswatch.com">Blog</a>
+            <li>
+              <a href="#work">Work</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                data-toggle="dropdown"
-                href="#"
-                id="download"
-                >Flatly <span class="caret"></span
-              ></a>
-              <div class="dropdown-menu" aria-labelledby="download">
-                <a
-                  class="dropdown-item"
-                  target="_blank"
-                  href="https://jsfiddle.net/bootswatch/jmg3gykg/"
-                  >Open in JSFiddle</a
-                >
-                <div class="dropdown-divider"></div>
-                <a
-                  class="dropdown-item"
-                  href="../4/flatly/bootstrap.min.css"
-                  download
-                  >bootstrap.min.css</a
-                >
-                <a
-                  class="dropdown-item"
-                  href="../4/flatly/bootstrap.css"
-                  download
-                  >bootstrap.css</a
-                >
-                <div class="dropdown-divider"></div>
-                <a
-                  class="dropdown-item"
-                  href="../4/flatly/_variables.scss"
-                  download
-                  >_variables.scss</a
-                >
-                <a
-                  class="dropdown-item"
-                  href="../4/flatly/_bootswatch.scss"
-                  download
-                  >_bootswatch.scss</a
-                >
-              </div>
+            <li>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>

@@ -81,7 +81,7 @@
     >
       <div class="container">
         <a href="../" class="navbar-brand p-0 m-0"
-          ><i class="fas fa-terminal"></i> Ali Nouri</a
+          ><i class="fas fa-terminal" style="color: #18bc9c;"></i> Ali Nouri</a
         >
         <button
           class="navbar-toggler"
@@ -96,68 +96,32 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                data-toggle="dropdown"
-                href="#"
-                id="themes"
-                >Themes <span class="caret"></span
-              ></a>
-              <div class="dropdown-menu" aria-labelledby="themes">
-                <a class="dropdown-item" href="../default/">Default</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="../cerulean/">Cerulean</a>
-              </div>
-            </li>
             <li class="nav-item">
-              <a class="nav-link" href="../help/">Help</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://blog.bootswatch.com">Blog</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                data-toggle="dropdown"
                 href="#"
-                id="download"
-                >Flatly <span class="caret"></span
-              ></a>
-              <div class="dropdown-menu" aria-labelledby="download">
-                <a
-                  class="dropdown-item"
-                  target="_blank"
-                  href="https://jsfiddle.net/bootswatch/jmg3gykg/"
-                  >Open in JSFiddle</a
+                id="portfolioDropDown"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Portfolio
+              </a>
+              <div class="dropdown-menu" aria-labelledby="portfolioDropDown">
+                <a class="dropdown-item" href="#portfolio-academic"
+                  >Academic/Experimental</a
                 >
-                <div class="dropdown-divider"></div>
-                <a
-                  class="dropdown-item"
-                  href="../4/flatly/bootstrap.min.css"
-                  download
-                  >bootstrap.min.css</a
+                <a class="dropdown-item" href="#portfolio-web-tools"
+                  >Web Tools</a
                 >
-                <a
-                  class="dropdown-item"
-                  href="../4/flatly/bootstrap.css"
-                  download
-                  >bootstrap.css</a
-                >
-                <div class="dropdown-divider"></div>
-                <a
-                  class="dropdown-item"
-                  href="../4/flatly/_variables.scss"
-                  download
-                  >_variables.scss</a
-                >
-                <a
-                  class="dropdown-item"
-                  href="../4/flatly/_bootswatch.scss"
-                  download
-                  >_bootswatch.scss</a
-                >
+                <a class="dropdown-item" href="#portfolio-websites">Websites</a>
               </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -273,7 +237,7 @@
       </div>
 
       <!-- projects subsection -->
-      <div class="row my-4" id="machine-learning">
+      <div class="row my-4" id="portfolio-academic">
         <div class="col-12">
           <h3 class="h4"><strong>Academic/Experimental Projects</strong></h3>
         </div>
@@ -388,14 +352,15 @@
       <!-- end of projects subsection -->
 
       <!-- projects subsection -->
-      <div class="row my-5" id="web-dev">
+      <div class="row my-5" id="portfolio-web-tools">
         <div class="col-12">
-          <h3 class="h4"><strong>Websites</strong></h3>
+          <h3 class="h4"><strong>Web Tools</strong></h3>
         </div>
         <div class="col-12">
           <p>
-            These are some of the web pages that I have developed over the years
-            for myself and various customers.
+            These are most of the web apps that I have worked on. Some of these
+            were done independently and others are developed in a team as part
+            of open source projects.
           </p>
           <p>
             Links to Github repos are provided where possible
@@ -519,15 +484,14 @@
       <!-- end of projects subsection -->
 
       <!-- projects subsection -->
-      <div class="row my-5" id="web-dev">
+      <div class="row my-5" id="portfolio-websites">
         <div class="col-12">
-          <h3 class="h4"><strong>Web Tools</strong></h3>
+          <h3 class="h4"><strong>Websites</strong></h3>
         </div>
         <div class="col-12">
           <p>
-            These are most of the web apps that I have worked on. Some of these
-            were done independently and others are developed in a team as part
-            of open source projects.
+            These are some of the web pages that I have developed over the years
+            for myself and various customers.
           </p>
           <p>
             Links to Github repos are provided where possible

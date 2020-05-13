@@ -2,8 +2,17 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+.navbar {
+  min-height: 70px;
+  padding: 10px 16px;
+}
+
+.navbar a {
+  font-size: 1.2em;
+}
+
 .navbar-brand {
-  font-size: 30px;
+  font-size: 30px !important;
   font-weight: bold;
 }
 
@@ -56,6 +65,10 @@ p {
   padding: 10px 0;
   margin-left: 5px;
 }
+.resume-label {
+  font-size: 1.3em;
+}
+
 .resume-file li {
   text-align: center;
 }

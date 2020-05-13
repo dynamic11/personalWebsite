@@ -14,7 +14,7 @@ body {
 
 #general-info-section {
   margin-top: 150px;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
   text-align: center;
 }
 
@@ -28,4 +28,8 @@ a.btn {
 
 a.btn:hover {
   color: #fff;
+}
+
+p {
+  font-size: 1.2em;
 }

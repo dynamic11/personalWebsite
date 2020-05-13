@@ -33,3 +33,13 @@ a.btn:hover {
 p {
   font-size: 1.2em;
 }
+
+.section-header {
+  border-bottom: 2px solid#2C3E50;
+}
+
+.section-header i {
+  font-size: 2.5em;
+  margin-right: 10px;
+  color: #18bc9c;
+}

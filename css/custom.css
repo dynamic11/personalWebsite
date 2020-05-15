@@ -76,11 +76,28 @@ p {
 .project-card {
   width: 100%;
   background-color: #fff;
-  border-top: 4px solid#2C3E50;
   border-radius: 3px;
   padding: 25px;
 }
 
 .project-gh-link i {
   color: #000;
+}
+
+.tooltip-inner {
+  background-color: #4a4c4f;
+  font-size: 15px;
+  padding: 8px 8px;
+}
+.tooltip.bs-tooltip-right .arrow:before {
+  border-right-color: #4a4c4f !important;
+}
+.tooltip.bs-tooltip-left .arrow:before {
+  border-left-color: #4a4c4f !important;
+}
+.tooltip.bs-tooltip-bottom .arrow:before {
+  border-bottom-color: #4a4c4f !important;
+}
+.tooltip.bs-tooltip-top .arrow:before {
+  border-top-color: #4a4c4f !important;
 }

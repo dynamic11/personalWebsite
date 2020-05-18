@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ali Nouri</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Lato:400,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/expand.js"></script>
+    <link
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Analytics
+      ================================================== -->
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-57474315-2", "auto");
+      ga("send", "pageview");
+    </script>
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="#banner" class="navbar-brand">Ali Nouri</a>
+          <button
+            class="navbar-toggle"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbar-main"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a href="#work">Work</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="page-header" id="banner">
+        <div class="row">
+          <div class="col-lg-8 col-md-7 col-sm-6 col-centered">
+            <img src=images/me.jpg class="img-circle avatar" alt="Picture of Ali
+            Nouri">
+            <h1>Ali Nouri</h1>
+            <p class="lead">Engineering Student</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- About
+      ================================================== -->
+      <div class="bs-docs-section clearfix content-card" id="about">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h1 class="card-header">About</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <h3>Hello World!</h3>
+            <p>
+              My name is Ali Nouri and I am a second year electrical engineering
+              student at Carleton University. I enjoy developing my skills by
+              applying my knowledge on real world problems. I have taken the
+              opportunity to learn CAD software such as HSPICE, PSPICE, AutoCAD,
+              and REVIT. I am able to apply my knowledge of C++, C, MATLAB, and
+              LaTeX to develop tools and documents. On this site you will be
+              able to find some of my previous work, my resume, and my contact
+              information. Please feel free to explore!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Portfolio
+      ================================================== -->
+      <div class="bs-docs-section content-card" id="portfolio">
+        <div class="page-header">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="card-header">Portfolio</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <p id="portfolio-info">
+              This is a collection of some of my previous work. Please feel free
+              to explore all the projects.
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <!-- project 1 -->
+          <div class="row port_projects">
+            <div class="col-lg-12">
+              <h3>Patent Improvement</h3>
+              <p>
+                This project asked us to improve upon an existing patent. Our
+                team redesigned an LED street lighting bracket. Our design would
+                incorporate the lights into street curbs. This configuration
+                would allow us to communicate with drivers by changing the color
+                of lights projected on the road. The benefits of this revision
+                included better energy efficiency, and improved road safety.
+              </p>
+              <!-- expand Panel -->
+              <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                  <button
+                    class="panel-heading"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                  >
+                    <h4 class="panel-title">
+                      <i class="collapse-icon fa fa-chevron-right"></i>
+                      expand to see files
+                    </h4>
+                  </button>
+                  <div id="collapseOne" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <section class="files">
+                        <ul>
+                          <li>
+                            <a
+                              href="portfolio/Interactive LED Street Lighting System.pdf"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-file-pdf-o fa-3x fileICON"></i>
+                              <p>Technical Report</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="portfolio/Street Lighting Presentation.pdf"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-file-pdf-o fa-3x fileICON"></i>
+                              <p>Technical Presentation</p>
+                            </a>
+                          </li>
+                        </ul>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <!-- project 2 -->
+          <div class="row port_projects">
+            <div class="col-lg-12">
+              <h3>First COOP Work Term</h3>
+              <p>
+                For my first Coop work term, I had the opportunity to use
+                industry standard CAD software. I began by writing my own
+                circuit simulator. This required extensive understanding of
+                modified nodal analysis and MATLAB. After creating my circuit
+                simulator, I completed a simulation using both my program and
+                HSPICE. To compare the results I needed to import the HSPICE and
+                MATLAB simulations into a single MATLAB plot. To accomplish
+                this, I developed my own C++ program that reads the HSPICE
+                simulation output and filters out the unnecessary information.
+                It then creates a text file that can be imported into MATLAB for
+                analysis. I was also able to importe HSPICE data into MATLAB
+                using the HSPICE Toolbox for MATLAB.
+              </p>
+              <p><b>Tools Used:</b> MATLAB, HSPICE, C++, AvanWaves</p>
+              <!-- expand Panel -->
+              <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                  <button
+                    class="panel-heading"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                  >
+                    <h4 class="panel-title">
+                      <i class="collapse-icon fa fa-chevron-right"></i>
+                      expand to see files
+                    </h4>
+                  </button>
+                  <div id="collapseTwo" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <section class="files">
+                        <ul>
+                          <li>
+                            <a
+                              href="portfolio/Work Term Report.pdf"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-file-pdf-o fa-3x fileICON"></i>
+                              <p>Work Term Report</p>
+                            </a>
+                          </li>
+                        </ul>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <!-- project 3 -->
+          <div class="row port_projects">
+            <div class="col-lg-12">
+              <h3>Museum of Science Redesign</h3>
+              <p>
+                The following set of images are from a 3D building design
+                project in Autodesk Revit. I designed a multipurpose museum. The
+                building (“The Pearl”) is inspired by a falling pearl into a
+                pool of water.
+              </p>
+              <p>
+                As seen in the 3D view, the glowing orb (the pearl) has caused
+                ripples in the landscape. The curved front façade takes
+                inspiration from the ripples.
+              </p>
+              <p>
+                The first floor museum is divided into two sections. One half
+                contains the Welcome Center, offices, and gift shop. The second
+                half is a conference area, equipped with a catering kitchen,
+                dining area, and an auditorium. This area can be rented out to
+                generate income for the museum.
+              </p>
+              <p><b>Tools Used:</b> Autodesk Revit</p>
+              <!-- expand Panel -->
+              <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                  <button
+                    class="panel-heading"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                  >
+                    <h4 class="panel-title">
+                      <i class="collapse-icon fa fa-chevron-right"></i>
+                      expand to see files
+                    </h4>
+                  </button>
+                  <div id="collapseThree" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <section class="files">
+                        <ul>
+                          <li>
+                            <a
+                              href="portfolio/3D building/3D View.PNG"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-picture-o fa-3x fileICON"></i>
+                              <p>3D View</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="portfolio/3D building/Floor Plan Level 1.PNG"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-picture-o fa-3x fileICON"></i>
+                              <p>Level 1 Floor Plan</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="portfolio/3D building/Floor Plan Level 2.PNG"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-picture-o fa-3x fileICON"></i>
+                              <p>Level 2 Floor Plan</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="portfolio/3D building/Entrance.PNG"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-picture-o fa-3x fileICON"></i>
+                              <p>Entrance</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="portfolio/3D building/Welcome Center.PNG"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-picture-o fa-3x fileICON"></i>
+                              <p>Museum Welcome Center</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="portfolio/3D building/Gift Shop 1.PNG"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-picture-o fa-3x fileICON"></i>
+                              <p>Gift Shop Front Desks</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="portfolio/3D building/Gift Shop 2.PNG"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-picture-o fa-3x fileICON"></i>
+                              <p>Back Of Gift Shop</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="portfolio/3D building/Office 2.PNG"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-picture-o fa-3x fileICON"></i>
+                              <p>Administrative Offices</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="portfolio/3D building/Entrance To Lounge And Theater.PNG"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-picture-o fa-3x fileICON"></i>
+                              <p>Lounge/Theater Entrance</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="portfolio/3D building/Lounge.PNG"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-picture-o fa-3x fileICON"></i>
+                              <p>Conference Lounge</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="portfolio/3D building/Washrooms.PNG"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-picture-o fa-3x fileICON"></i>
+                              <p>Washroom</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="portfolio/3D building/Back of Theater.PNG"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-picture-o fa-3x fileICON"></i>
+                              <p>Back Of Auditorium</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="portfolio/3D building/View From Stage.PNG"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-picture-o fa-3x fileICON"></i>
+                              <p>Auditorium Stage</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="portfolio/3D building/The Pearl.PNG"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-picture-o fa-3x fileICON"></i>
+                              <p>View of The Pearl</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="portfolio/3D building/Welcome Center From Level 2.PNG"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-picture-o fa-3x fileICON"></i>
+                              <p>Level 2 Lookout</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="portfolio/3D building/Level 3 Lookout.PNG"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-picture-o fa-3x fileICON"></i>
+                              <p>Level 3 Lookout</p>
+                            </a>
+                          </li>
+                        </ul>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <!-- project 4 -->
+          <div class="row port_projects">
+            <div class="col-lg-12">
+              <h3>Airplane Seat 3D model</h3>
+              <p>
+                The purpose of this design project was to create a 3D model of
+                an airplane. As a team we recreated an airplane fuselage. I was
+                responsible for redesigning the airplane seat. The following
+                pictures illustrate the seat that I designed. This seat includes
+                all essentials for an airplane seat. It has movable armrests, a
+                tray with a lock, and an adjustable LCD display.
+              </p>
+              <p><b>Tools Used:</b> AutoCAD</p>
+              <!-- expand Panel -->
+              <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                  <button
+                    class="panel-heading"
+                    data-toggle="collapse"
+                    data-target="#collapseFour"
+                  >
+                    <h4 class="panel-title">
+                      <i class="collapse-icon fa fa-chevron-right"></i>
+                      expand to see files
+                    </h4>
+                  </button>
+                  <div id="collapseFour" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <section class="files">
+                        <ul>
+                          <li>
+                            <a
+                              href="portfolio/Seat/3D Front.png"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-picture-o fa-3x fileICON"></i>
+                              <p>3D Front View</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="portfolio/Seat/3D Back.png"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-picture-o fa-3x fileICON"></i>
+                              <p>3D Back View</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="portfolio/Seat/TV & Tray.png"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-picture-o fa-3x fileICON"></i>
+                              <p>Display & Tray</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="portfolio/Seat/Back.png"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-picture-o fa-3x fileICON"></i>
+                              <p>Back View</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="portfolio/Seat/Side.png"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-picture-o fa-3x fileICON"></i>
+                              <p>Side View</p>
+                            </a>
+                          </li>
+                        </ul>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <!-- project 5 -->
+          <div class="row port_projects">
+            <div class="col-lg-12">
+              <h3>Reverse Engineering Project</h3>
+              <p>
+                Our engineering team got the opportunity to use a 3D printer. We
+                decided to design a tool to increase the grip of circular door
+                handle. Our design was a rubber sleeve with grooves that could
+                be slipped onto any door handle. We generated the prototype
+                using AutoCAD and printed the 3D model. The following are images
+                of the prototype.
+              </p>
+              <p><b>Tools Used:</b> AutoCAD, 3D Printer</p>
+              <!-- expand Panel -->
+              <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                  <button
+                    class="panel-heading"
+                    data-toggle="collapse"
+                    data-target="#collapseFive"
+                  >
+                    <h4 class="panel-title">
+                      <i class="collapse-icon fa fa-chevron-right"></i>
+                      expand to see files
+                    </h4>
+                  </button>
+                  <div id="collapseFive" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <section class="files">
+                        <ul>
+                          <li>
+                            <a
+                              href="portfolio/Door/Tilt View.jpg"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-picture-o fa-3x fileICON"></i>
+                              <p>Prototype</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="portfolio/Door/Top View.jpg"
+                              class="glow"
+                              target="_blank"
+                            >
+                              <i class="fa fa-picture-o fa-3x fileICON"></i>
+                              <p>Top View</p>
+                            </a>
+                          </li>
+                        </ul>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Work
+      ================================================== -->
+      <div class="bs-docs-section content-card" id="work">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h1 class="card-header">Work</h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- Headings -->
+        <div class="row">
+          <div class="col-lg-12">
+            <p>
+              I am currently working as a Co-op student at Ercisson. I am part
+              of a team that develops and maintains a simulator used for testing
+              and R&D. It has given me a great opportunity to improve my
+              programming skills and to gain more experience with industry
+              standard software. I will be looking for another Co-op position in
+              the summer of 2017 as part of my university program
+            </p>
+          </div>
+          <div class="row resume">
+            <div class="col-lg-12">
+              <a
+                href="files/RESUME.pdf"
+                class="resume_file glow"
+                target="_blank"
+              >
+                <ul>
+                  <li class="fa fa-file-pdf-o fa-2x"></li>
+                  <li id="label">Resume</li>
+                </ul>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--        <div class="row">
+            <div class="col-lg-12">
+                <h3>Hiring?</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <p>I’m a second year electrical engineering student at Carleton University and I’m looking for a coop position starting May 2015. 
+                    I will be available for 8 months and I would love to hear about your team. If you are looking for an enthusiastic, hardworking, 
+                    and knowledgeable coop student please feel free to contact me. The following document is my resume for your consideration.</p>
+            </div>
+            <div class="row resume">
+                <div class="col-lg-12">
+                    <a href="files/RESUME.pdf" class="resume_file glow" target="_blank">
+                        <ul>
+                            <li class="fa fa-file-pdf-o fa-2x"></li>
+                            <li id="label">Resume</li>
+                        </ul>          
+                    </a>
+                </div> 
+            </div>           
+        </div>-->
+      </div>
+
+      <!-- Contact
+      ================================================== -->
+      <div class="bs-docs-section content-card" id="contact">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h1 class="card-header">Contact</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <h3>Please don't hesitate to contact me!</h3>
+            <p>
+              Email is the best way to reach me. I will do my best to get back
+              to you within 24 hours.
+            </p>
+            <p>Please only use phone contact for urgent inquiries.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <h3>Contact Details</h3>
+            <ul class="contact-info">
+              <li>
+                <a class="fa fa-phone" href="tel:6133234010"
+                  ><span>(613) 323-4010</span></a
+                >
+              </li>
+              <li>
+                <a class="fa fa-envelope" href="mailto: s.ali.nouri@outlook.com"
+                  ><span>s.ali.nouri@outlook.com</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="footer row">
+          <div class="col-lg-8 col-md-7 col-sm-6 centered">
+            <a
+              class="fa fa-linkedin fa-2x"
+              href="https://www.linkedin.com/pub/seyed-ali-nouri/a6/427/921"
+              target="_blank"
+            ></a>
+            <a
+              class="fa fa-facebook fa-2x"
+              href="https://www.facebook.com/ali.nouri.129"
+              target="_blank"
+            ></a>
+            <p>Hello From Ottawa!</p>
+            <p>&copy; 2014 Ali Nouri.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="nav-button">
+      <a
+        href="#banner"
+        id="back-top"
+        class="nav-arrow fa fa-chevron-circle-up fa-3x"
+      >
+      </a>
+    </div>
+  </body>
+</html>
